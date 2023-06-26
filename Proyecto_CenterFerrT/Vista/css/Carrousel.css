@@ -1,0 +1,87 @@
+﻿.contenedor {
+    width: 320px;
+    margin: 100px auto 0 auto;
+    perspective: 1000px;
+}
+
+.carrus {
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    animation: rotate360 60s infinite forwards linear;
+}
+
+.carousel__face {
+    position: absolute;
+    width: 300px;
+    height: 187px;
+    top: -130px;
+    left: 10px;
+    right: 10px;
+    background-size: cover;
+    box-shadow: inset 0 0 0 2000px rgba(0,0,0,0.5);
+    display: flex;
+}
+
+span {
+    margin: auto;
+    font-size: 2rem;
+}
+
+
+.carousel__face:nth-child(1) {
+    background-image: url("https://hips.hearstapps.com/hmg-prod/images/cocinas-abiertas-sociales-open-concept-1641827584.jpg");
+    transform: rotateY( 0deg) translateZ(430px);
+}
+
+.carousel__face:nth-child(2) {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTODx2fPQ6qe5BqqisVcjuyHuAXTveH305zJQ&usqp=CAU");
+    transform: rotateY( 40deg) translateZ(430px);
+}
+
+.carousel__face:nth-child(3) {
+    background-image: url("https://www.kozoarquitectura.es/wp-content/uploads/2023/01/Post-Tendencias-de-de-decoracion-2023.jpg");
+    transform: rotateY( 80deg) translateZ(430px);
+}
+
+.carousel__face:nth-child(4) {
+    background-image: url("https://sevilla.abc.es/estilo/bulevarsur//wp-content/uploads/sites/14/2022/06/tendencias-decoracion-2023-formas-redondeadas.jpg");
+    transform: rotateY(120deg) translateZ(430px);
+}
+
+.carousel__face:nth-child(5) {
+    background-image: url("https://hips.hearstapps.com/hmg-prod/images/bano-2-1528107257.jpg");
+    transform: rotateY(160deg) translateZ(430px);
+}
+
+.carousel__face:nth-child(6) {
+    background-image: url("https://www.spaciosintegrales.com/wp-content/uploads/10-tendencias-cocinas-integrales-2023-bogota-colombia.png");
+    transform: rotateY(200deg) translateZ(430px);
+}
+
+.carousel__face:nth-child(7) {
+    background-image: url("https://www.ofitipo.com/modules/dbblog/views/img/post/tendencias-oficinas-2023.png");
+    transform: rotateY(240deg) translateZ(430px);
+}
+
+.carousel__face:nth-child(8) {
+    background-image: url("https://guiaarquitectura.com/wp-content/uploads/2022/10/interiosmo-y-decoracion-para-oficinas.jpg");
+    transform: rotateY(280deg) translateZ(430px);
+}
+
+.carousel__face:nth-child(9) {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsvTWxZ2wy7YPljTaHVpWcicJwKWkwq_lDgQ&usqp=CAU");
+    transform: rotateY(320deg) translateZ(430px);
+}
+
+
+
+@keyframes rotate360 {
+    from {
+        transform: rotateY(0deg);
+    }
+
+    to {
+        transform: rotateY(-360deg);
+    }
+}

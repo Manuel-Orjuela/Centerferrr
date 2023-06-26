@@ -1,0 +1,20 @@
+﻿.imgs {
+    
+    width: 300%;
+    height: 300px;
+    max-height: 200px;
+}
+.card col-2{
+
+}
+.mGrid {
+    width: 100%;
+    background-color: #fff;
+    margin: 5px 0 10px 0;
+    border: solid 1px #525252;
+    border-collapse: collapse;
+}
+.card imag{
+    width:20px;
+    height:20px;
+}
