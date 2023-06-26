@@ -63,6 +63,10 @@
 
             <asp:Button ID="btnActualizar" runat="server" class="btn btn-primary" Text="Registrar" OnClick="btnActualizar_Click" />
             <asp:Button ID="Button1" runat="server" Text="Button" />
+
+
+            <asp:Button ID="Button2" runat="server" class="btn btn-primary" Text="Registrar" OnClick="btnActualizar_Click" />
+            <asp:Button ID="Button3" runat="server" Text="Button" />
         </div>
     </div>
 </asp:Content>
